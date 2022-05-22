@@ -56,12 +56,28 @@
 			children = (
 				1F88EF2C283A7FD400D3774C /* AppDelegate.swift */,
 				1F88EF2E283A7FD400D3774C /* SceneDelegate.swift */,
-				1F88EF30283A7FD400D3774C /* ViewController.swift */,
+				1F88EF42283A84DA00D3774C /* Controllers */,
+				1F88EF43283A84EE00D3774C /* Views */,
 				1F88EF35283A7FD500D3774C /* Assets.xcassets */,
 				1F88EF37283A7FD500D3774C /* LaunchScreen.storyboard */,
 				1F88EF3A283A7FD500D3774C /* Info.plist */,
 			);
 			path = CameraChat;
+			sourceTree = "<group>";
+		};
+		1F88EF42283A84DA00D3774C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1F88EF30283A7FD400D3774C /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1F88EF43283A84EE00D3774C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
