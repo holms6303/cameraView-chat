@@ -4,7 +4,6 @@ import AVFoundation
 class ViewController: UIViewController {
 
     var previewView : UIView!
-        var boxView:UIView!
         let myButton: UIButton = UIButton()
 
         //Camera Capture requiered properties
@@ -23,8 +22,9 @@ class ViewController: UIViewController {
             previewView.contentMode = UIView.ContentMode.scaleAspectFit
             view.addSubview(previewView)
 
+            navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.systemGreen]
+
             //Add a view on top of the cameras' view
-            boxView = UIView(frame: self.view.frame)
 
             myButton.frame = CGRect(x: 0, y: 0, width: 200, height: 40)
             myButton.backgroundColor = UIColor.red
@@ -35,7 +35,6 @@ class ViewController: UIViewController {
             myButton.layer.position = CGPoint(x: self.view.frame.width/2, y:200)
             myButton.addTarget(self, action: #selector(self.onClickMyButton(sender:)), for: .touchUpInside)
 
-            view.addSubview(boxView)
             view.addSubview(myButton)
 
             self.setupAVCapture()
@@ -61,7 +60,7 @@ class ViewController: UIViewController {
     // AVCaptureVideoDataOutputSampleBufferDelegate protocol and related methods
     extension ViewController:  AVCaptureVideoDataOutputSampleBufferDelegate{
          func setupAVCapture(){
-            session.sessionPreset = AVCaptureSession.Preset.vga640x480
+             session.sessionPreset = AVCaptureSession.Preset.iFrame1280x720
             guard let device = AVCaptureDevice
             .default(AVCaptureDevice.DeviceType.builtInWideAngleCamera,
                      for: .video,

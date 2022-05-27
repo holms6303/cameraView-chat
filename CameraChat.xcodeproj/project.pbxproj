@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F2DE45E2840D6540051D7E0 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2DE45D2840D6540051D7E0 /* TabBar.swift */; };
 		1F88EF2D283A7FD400D3774C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F88EF2C283A7FD400D3774C /* AppDelegate.swift */; };
 		1F88EF2F283A7FD400D3774C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F88EF2E283A7FD400D3774C /* SceneDelegate.swift */; };
 		1F88EF31283A7FD400D3774C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F88EF30283A7FD400D3774C /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F2DE45D2840D6540051D7E0 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		1F88EF29283A7FD400D3774C /* CameraChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F88EF2C283A7FD400D3774C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F88EF2E283A7FD400D3774C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				1F88EF30283A7FD400D3774C /* ViewController.swift */,
+				1F2DE45D2840D6540051D7E0 /* TabBar.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				1F88EF31283A7FD400D3774C /* ViewController.swift in Sources */,
 				1F88EF2D283A7FD400D3774C /* AppDelegate.swift in Sources */,
 				1F88EF2F283A7FD400D3774C /* SceneDelegate.swift in Sources */,
+				1F2DE45E2840D6540051D7E0 /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
